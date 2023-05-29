@@ -21,8 +21,6 @@ spec:
       hostPort: 80
     - containerPort: 443
       hostPort: 443
-    stdin: true
-    tty: true
     volumeMounts:
     - mountPath: /etc/v2ray/
       name: opt-podman-v2ray-v2ray-caddy-cdn-v2ray-config-host-0
@@ -30,8 +28,6 @@ spec:
       name: opt-podman-v2ray-v2ray-caddy-cdn-v2ray-logs-host-1
   - image: ghcr.io/getimages/caddy:2.6.2-alpine
     name: v2ray-caddy
-    stdin: true
-    tty: true
     volumeMounts:
     - mountPath: /etc/caddy/Caddyfile
       name: opt-podman-v2ray-v2ray-caddy-cdn-caddy-Caddyfile-host-0
