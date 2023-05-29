@@ -1,4 +1,4 @@
-# V2RAY Podman play
+# V2RAY Podman or Kubernetes
 
 This is based on a modification of v2ray-caddy-cdn in this [repository](https://github.com/miladrahimi/v2ray-docker-compose/tree/master/v2ray-caddy-cdn), podman  pod YAML file
 
